@@ -5,7 +5,7 @@ const target = document.querySelector('.card');
 const observer = new MutationObserver(_ => {
     const text = document.querySelector('.card-text').textContent;
     if (text.includes("5000000000000000")) {
-        const flag = "FLAG{you_can_edit_html_using_devtools}";
+        const flag = "flag{you_can_edit_html_using_devtools}";
         alert(flag);
         console.log(flag);
     }
